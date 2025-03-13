@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .thank-you-container {
+      text-align: center;
+    }
+
+    .thank-you-text {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .animation-container {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+
+    .circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #4CAF50;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: scaleUp 0.5s ease-in-out forwards;
+      flex-direction: column;
+    }
+
+    .circle-text {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    @keyframes scaleUp {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <h1 class="thank-you-text">Thank You for Your Order!</h1>
+    <div class="animation-container">
+      <div class="circle">
+        <div class="circle-text">SS</div>
+        <div class="circle-text">Productions</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
