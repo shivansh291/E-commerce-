@@ -10,7 +10,6 @@ An elegant and responsive e-commerce template built with Bootstrap. Perfect for 
 - Pages for:
   - Homepage (`index.html`)
   - Product listing (`shop.html`)
-  - Product details (`detail.html`)
   - Shopping cart (`cart.html`)
   - Checkout process (`checkout.html`)
   - Contact page (`contact.html`)
